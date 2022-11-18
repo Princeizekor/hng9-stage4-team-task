@@ -8,7 +8,7 @@
     align-items: center;
     position: sticky;
     top: 0%;
-    z-index: 1000000;
+    z-index: 1000000000;
 }
 
 .logo {
@@ -60,10 +60,27 @@
     color: #FBFBFF;
 }
 
+.menu {
+    display: none;
+}
+
+.menus {
+    display: none;
+}
+
+.lists {
+    display: none;
+}
+
+.btns {
+    display: none;
+}
+
 @media screen and (max-width: 1023px) {
     .navbar {
         height: 70px;
         padding: 0px 50px;
+        position: relative;
     }
     
     .logo {
@@ -72,28 +89,45 @@
     }
     
     .list {
-        display: flex;
-        gap: 40px;
         display: none;
     }
-    
-    /* .list li a {
+
+    .lists {
+        display: flex;
+        gap: 50px;
+        position: absolute;
+        top: -150px;
+        left: 0%;
+        width: 100%;
+        bottom: 0%;
+        height: 20vh;
+        background-color: white;
+        align-items: center;
+        justify-content: center;
+        transition: 0.5s all ease;
+        z-index: -1000;
+    }
+
+    .lists li a {
         color: #737373;
     }
-    
-    .list li a:focus {
+
+    .lists li a:focus {
         color: #2E3192;
         font-weight: 500;
-    } */
+    }
     
     .buttons {
+        display: none;
+    }
+
+    .btns {
         display: flex;
         align-items: center;
         gap: 40px;
-        display: none;
     }
     
-    /* .sign-in {
+    .signin {
         font-family: 'Outfit';
         font-style: normal;
         font-weight: 600;
@@ -101,26 +135,81 @@
         color: #2E3192;
     }
     
-    .start {
+    .started {
         display: flex;
         flex-direction: row;
         justify-content: center;
         align-items: center;
-        width: 140px;
-        height: 45px;
+        width: 100px;
+        height: 30px;
         background: #2E3192;
         border-radius: 8px;
         font-family: 'Outfit';
         font-style: normal;
-        font-weight: 600;
-        font-size: 16px;
+        font-weight: 300;
+        font-size: 14px;
         color: #FBFBFF;
-    } */
+    }
+
+    .menu {
+        display: block;
+    }
 }
 
 @media screen and (max-width: 767px) {
     .navbar {
         height: 80px;
         padding: 0px 30px;
+    }
+
+    .list {
+        display: flex;
+        position: absolute;
+        gap: 25px;
+        flex-direction: column;
+        top: 70px;
+        left: 0%;
+        width: 100%;
+        bottom: 0%;
+        height: 100vh;
+        justify-content: unset;
+        padding: 80px 0px;
+        transition: 0.5s all ease;
+        align-items: center;
+        justify-content: center;
+        background-color: white;
+    }
+
+    .list li {
+        font-size: 25px;
+    }
+
+    .lists {
+        display: none;
+    }
+
+    .btns {
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .started {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        width: 200px;
+        height: 35px;
+        background: #2E3192;
+        border-radius: 8px;
+        font-family: 'Outfit';
+        font-style: normal;
+        font-weight: 300;
+        font-size: 14px;
+        color: #FBFBFF;
+    }
+
+    .menu {
+        display: block;
     }
 }
