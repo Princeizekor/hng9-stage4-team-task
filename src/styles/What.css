@@ -60,3 +60,39 @@
         font-size: 14px;
     }
 }
+
+@media screen and (max-width: 767px) {
+    .what {
+        width: 100%;
+        padding: 30px;
+        margin: 0%;
+        flex-direction: column;
+    }
+
+    .what-content1 {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .what-content1 img {
+        width: 160px;
+        border-radius: 8px;
+    }
+    
+    .what-content2 {
+        padding: 30px 0px;
+        width: 100%;
+    }
+    
+    .what-content2 h1 {
+        font-weight: 600;
+        font-size: 20px;
+    }
+    
+    .what-content2 p {
+        font-weight: 300;
+        font-size: 14px;
+    }
+}

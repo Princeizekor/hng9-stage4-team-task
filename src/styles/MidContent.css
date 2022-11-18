@@ -33,3 +33,18 @@
         font-size: 40px;
     } 
 }
+
+@media screen and (max-width: 767px) {
+    .midcontent {
+        gap: 50px;
+    }
+    
+    .users-record h1 {
+        font-size: 24px;
+    }
+
+    .users-record p {
+        font-weight: 300;
+        font-size: 14px;
+    }
+}

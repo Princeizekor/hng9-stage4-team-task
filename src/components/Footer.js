@@ -16,6 +16,7 @@ function Footer() {
             <img src="./img/bi_youtube.svg" alt="youtube-icon" />
         </div>
         </div>
+        <div className="foot-details">
         <div className="company">
             <p>Company</p>
             <p>About Us</p>
@@ -29,6 +30,7 @@ function Footer() {
             <p>FAQs</p>
             <p>Pricing</p>
             <p>Careers</p>
+        </div>
         </div>
         </div>
     )

@@ -117,3 +117,10 @@
         color: #FBFBFF;
     } */
 }
+
+@media screen and (max-width: 767px) {
+    .navbar {
+        height: 80px;
+        padding: 0px 30px;
+    }
+}

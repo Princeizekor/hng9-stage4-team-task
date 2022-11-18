@@ -70,3 +70,33 @@
         width: 339px;
     }
 }
+
+@media screen and (max-width: 767px) {
+    .who {
+        padding: 30px;
+        flex-direction: column-reverse;
+    }
+    
+    .who-content1 {
+        padding: 30px 0px;
+        width: 100%;
+    }
+    
+    .who-content1 h1 {
+        height: 30px;
+        width: 100%;
+        font-size: 20px;
+        margin-bottom: 20px;
+    }
+    
+    .who-content1 p {
+        width: 100%;
+        font-weight: 300;
+        font-size: 14px;
+    }
+    
+    .who-content2 img {
+        width: 160px;
+        border-radius: 8px;
+    }
+}

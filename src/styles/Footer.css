@@ -139,3 +139,66 @@
         font-weight: 700;
     }
 }
+
+@media screen and (max-width: 767px) {
+    .footer {
+        height: auto;
+        flex-direction: column;
+        padding: 30px;
+    }
+    
+    .typo {
+        gap: 30px;
+        width: 100%;
+        align-items: flex-start;
+        justify-content: flex-start;
+    }
+    
+    .typo img {
+        width: 78px;
+        height: auto;
+    }
+    
+    .typo p {
+        font-weight: 300;
+        font-size: 14px;
+        width: 188px;
+    }
+    
+    .social {
+        gap: 30px;
+        width: 100%;
+        height: 40px;
+        align-items: flex-start;
+        justify-content: flex-start;
+    }
+
+    .social img {
+        width: 18px;
+    }
+
+    .foot-details {
+        display: flex;
+    }
+    
+    .company,
+    .help {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 0px;
+        gap: 24px;
+        width: 50%;
+        height: 150px;
+    }
+    
+    .company p,
+    .help p {
+        font-size: 16px;
+    }
+    
+    .company p:first-child,
+    .help p:first-child {
+        font-weight: 700;
+    }
+}
