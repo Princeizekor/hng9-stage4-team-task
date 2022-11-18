@@ -80,12 +80,12 @@
     .navbar {
         height: 70px;
         padding: 0px 50px;
-        position: relative;
     }
     
     .logo {
         width: 95px;
         height: 45px;
+        position: relative;
     }
     
     .list {
@@ -111,7 +111,7 @@
     .lists li a {
         color: #737373;
     }
-    
+
 
     .lists li a:focus {
         color: #2E3192;
