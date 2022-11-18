@@ -35,3 +35,16 @@
     letter-spacing: 0.03em;
     color: #FFFFFF;
 }
+
+@media screen and (max-width: 1023px) {
+    .copy {
+        padding: 0px 50px;
+    }
+    
+    .copy p {
+        font-size: 14px;
+    }
+    .cookie p {
+        font-size: 14px;
+    }
+}

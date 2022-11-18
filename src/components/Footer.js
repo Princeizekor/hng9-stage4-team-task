@@ -7,7 +7,7 @@ function Footer() {
             <div className="typo">
         <img src="./img/Frame (1).svg" alt="footer app logo" />
         <p>Job hunting has never been easier. We got you covered.</p>
-        <img src="./img/image 1.svg" alt="google play logo" />
+        <img src="./img/image 1.svg" alt="google play logo" className="google"/>
         </div>
         <div className="social">
             <img src="./img/Vector.svg" alt="facebook-icon" />
