@@ -3,7 +3,6 @@ import { Link } from 'react-router-dom'
 
 function Navbar() {
     const [sidebar, setSidebar] = useState(false)
-    const [close, setClose] = useState(true)
     return (
         <div className="navbar">
             <img src="../img/Frame.svg" alt="page logo" className="logo"/>
@@ -32,8 +31,8 @@ function Navbar() {
                 <a href="" className="sign-in">Sign in</a>
                 <a href="" className="start">Get started</a>
             </div>
-            <img onClick={() => setClose(close)} src="./img/Vector (1).svg" alt="close menu image" className="close"/>
-            <img onClick={() => setSidebar(!sidebar)} src="./img/sandwich (1).svg" alt="hamburger opener image" className="menu"/>
+            <img onClick={() => setSidebar(false)} style={sidebar !== true ? {display: 'none'} : {display: 'block'}} src="./img/Vector (1).svg" alt="close menu image" className="close"/>
+            <img onClick={() => setSidebar(true)} style={sidebar !== false ? {display: 'none'} : {display: 'block'}} src="./img/sandwich (1).svg" alt="hamburger opener image" className="menu"/>
         </div>
     )
 }
