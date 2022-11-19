@@ -21,8 +21,16 @@
     gap: 40px;
 }
 
+.list li .us {
+    color: #2E3192;
+}
+
 .list li a {
     color: #737373;
+}
+
+.us {
+    color: #2E3192;
 }
 
 .list li a:focus {
