@@ -31,8 +31,10 @@ function Navbar() {
                 <a href="" className="sign-in">Sign in</a>
                 <a href="" className="start">Get started</a>
             </div>
+            <div className="openers">
             <img onClick={() => setSidebar(false)} style={sidebar !== true ? {display: 'none'} : {display: 'block'}} src="./img/Vector (1).svg" alt="close menu image" className="close"/>
             <img onClick={() => setSidebar(true)} style={sidebar !== false ? {display: 'none'} : {display: 'block'}} src="./img/sandwich (1).svg" alt="hamburger opener image" className="menu"/>
+            </div>
         </div>
     )
 }

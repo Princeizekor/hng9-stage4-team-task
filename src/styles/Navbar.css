@@ -67,7 +67,7 @@
     color: #FBFBFF;
 }
 
-.menu {
+.openers {
     display: none;
 }
 
@@ -154,7 +154,7 @@
         color: #FBFBFF;
     }
 
-    .menu {
+    .openers {
         display: block;
     }
 }
