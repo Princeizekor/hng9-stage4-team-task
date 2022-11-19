@@ -33,10 +33,10 @@
     color: #2E3192;
 }
 
-.list li a:focus {
+/* .list li a:focus {
     color: #2E3192;
     font-weight: 500;
-}
+} */
 
 .buttons {
     display: flex;
